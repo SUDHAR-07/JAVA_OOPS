@@ -12,6 +12,9 @@ public class Task {
         this.prioritize = prioritize;
     }
 
+    public Task(String taskName){
+        this.TaskName = taskName;
+    }
     public Task(String taskName, boolean completed) {
         TaskName = taskName;
         this.completed = completed;
